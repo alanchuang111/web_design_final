@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }  
+body {
+	font-family:"Noto Sans CJK TC", "Microsoft JhengHei", PingFang, STHeiti, sans-serif, serif;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none; 
+}
+nav a:hover {
+	background-color: rgb(10, 224, 174);
+}
+h1 {
+	padding: 0.25em 1em;
+}
+h2 {
+	position: relative;
+  	background: #cebba5;
+  	padding: 2px 5px 2px 20px;  	
+  	color: #474747;
+}
+
+h3 {
+	color: black;
+}
+p {
+	text-align: justify;
+}
+
+footer {
+	background-color: #D8D2CB;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+    position: relative;
+    top: 60px;
+}
+footer a {  
+	color: #050505;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none; 
+} 
+footer a:hover { 
+	color: #858685;
+	font-size: 120%;
+}
+footer p {
+	text-align: center;
+}

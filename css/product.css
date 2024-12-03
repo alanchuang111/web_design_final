@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}  
+body {
+	font-family:"Noto Sans CJK TC", "Microsoft JhengHei", PingFang, STHeiti, sans-serif, serif;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none; /*移除超連結底線*/
+}
+nav a:hover {
+	background-color: rgb(10, 224, 174);
+}
+.jum {
+	padding: 10px;
+	margin-bottom: 20px;
+    position: relative;
+	text-align: center;
+	background-image: url(../img/Coffee.jpg); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+    color: white;
+}
+.jum p {
+    text-align: center;
+}
+h1 {
+	padding: 0.25em 1em;
+}
+
+h2 {
+	position: relative;
+  	background: #cebba5;
+  	padding: 2px 5px 2px 20px;  	
+  	color: #000000;	
+	text-align: center;
+}
+
+.card {
+    width: 400px;
+	padding: 3px;
+    margin: -0px 10px 10px 10px;
+
+}
+.card img {
+    width: 400px;
+    height: 300px;
+}
+
+h3 {
+	color: black;
+}
+h3:before {
+	font-family: "Font Awesome 6 Free";
+	padding-right : 5px; /*文字間距*/
+}
+p {
+	text-align: justify;
+}
+/*footer樣式設定*/
+footer {
+	background-color: #D8D2CB;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+    position: relative;
+    top: 60px;
+}
+footer a {  
+	color: #050505;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none; 
+} 
+footer a:hover { 
+	color: #858685;
+}
+footer p {
+	text-align: center;
+}
